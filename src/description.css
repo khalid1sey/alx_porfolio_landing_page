@@ -1,0 +1,126 @@
+
+
+body {
+    font-family: monospace;
+}
+
+section.wrapper {
+    position: absolute;
+}
+
+.main_background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+header {
+
+}
+
+/* <!-- Navigation content goes here --> */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 50px;
+}
+
+nav .logo a {
+    font-size: 49px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu_nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 44px;
+    margin-right: 100px;
+
+}
+
+ul li {
+    
+}
+
+.menu_nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.menu_nav ul a:hover {
+    outline: 1px solid #fff;
+    padding: 3px;
+    background-color: #fff;
+    color: #005;
+    border-radius: 1px;
+}
+
+.gameplay-description {
+    text-align: center;
+}
+.gameplay-description img {
+    width: 100%;
+    max-width: 800px; /* Adjust based on your design needs */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background: #e0e0e0; /* Placeholder background color */
+}
+.gameplay-description h1 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #333;
+}
+.gameplay-description h2 {
+    font-size: 22px;
+    color: #555;
+}
+.gameplay-description p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section {
+    margin-bottom: 30px;
+}
+.section img {
+    width: 100%;
+    max-width: 800px; /* Adjust based on your design needs */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #e0e0e0; /* Placeholder background color */
+}
+.section h2 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #333;
+}
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}

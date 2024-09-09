@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport settings for responsive design -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibility with older versions of Internet Explorer -->
+
+    <!-- Page Title -->
+    <title>Maze</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A brief description of your page for search engines.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Web Development, Portfolio Project, Alx SWE landing portfolio  Project, landing page, frontend devlopment, backend development">
+    <meta name="author" content="DEv. Khalid">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Your Page Title">
+    <meta property="og:description" content="A brief description of your page for social media.">
+    <meta property="og:image" content="URL to an image representing your page">
+    <meta property="og:url" content="URL of your page">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="description.css"> <!-- Link to your main stylesheet -->
+    <!-- You can include more stylesheets here -->
+
+    <!-- External Fonts (optional) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <!-- JavaScript Files (optional) -->
+    <!-- Place JavaScript links here if needed -->
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Navigation content goes here -->
+            <div class="logo">
+                <a href="index.html">Maze</a>
+            </div>
+            <div class="menu_nav">
+                <ul>
+                    <li><a href="description.html">DESCRIPTION</a></li>
+                    <li><a href="gameplay.html">GAMEPLAY</a></li>
+                    <li><a href="creator.html">CREATOR</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="gameplay-description">
+            <img src="placeholder-maze-image.jpg" alt="Maze Game Screenshot">
+            <h1>Maze Game Gameplay</h1>
+            <p>
+                Welcome to the Maze Game, where your goal is to navigate through a complex maze and reach the exit. In this game, you'll face various challenges as you attempt to find your way out of the maze.
+            </p>
+            <h2>Objective</h2>
+            <p>
+                The main objective of the game is to find the exit located somewhere within the maze. You must use your problem-solving skills to navigate through the labyrinth and avoid dead ends.
+            </p>
+            <h2>Gameplay Mechanics</h2>
+            <p>
+                - **Movement**: Use the arrow keys or WASD keys to move your character through the maze.
+                <br>- **Maze Layout**: The maze is generated with walls and pathways that you must navigate through.
+                <br>- **Timers and Score**: Complete the maze as quickly as possible to achieve a high score.
+            </p>
+            <h2>Features</h2>
+            <p>
+                - **Dynamic Maze Generation**: Each game features a new maze layout, offering endless replayability.
+                <br>- **Difficulty Levels**: Choose from different difficulty levels that affect the size and complexity of the maze.
+                <br>- **Hints and Tools**: Use in-game hints or tools to help you find the exit if you get stuck.
+            </p>
+            <h2>Controls</h2>
+            <p>
+                - **Arrow Keys / WASD**: Move your character through the maze.
+                <br>- **Escape Key**: Pause the game or access the menu.
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Walls Example">
+            <h2>0. Walls</h2>
+            <p>Create a window with SDL2 and use raycasting to draw walls. The walls should be visible and distinct from the ground and ceiling. You must provide a way to modify the map within the code.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Orientation Example">
+            <h2>1. Orientation</h2>
+            <p>Draw walls with different colors based on their orientation. Walls facing NORTH and SOUTH should have a different color compared to walls facing EAST and WEST.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Rotation Example">
+            <h2>2. Rotation</h2>
+            <p>Implement camera rotation functionality. Allow the camera to rotate using keyboard arrows or mouse movement, enabling a first-person view experience.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Movement Example">
+            <h2>3. Move</h2>
+            <p>Enable camera movement using the W, A, S, and D keys. The player should be able to move forward, backward, left, and right within the game environment.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Collision Handling Example">
+            <h2>4. Ouch!</h2>
+            <p>Implement collision detection to ensure the player cannot move through walls. Handle collisions by making the player slide along walls instead of simply stopping.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Parser Example">
+            <h2>5. Parser</h2>
+            <p>Create a parser to load the map from a file. Define your map file format and ensure that your program can read and interpret the map data from an external file.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Draw Map Example">
+            <h2>6. Draw the Map</h2>
+            <p>Draw the map on the window with options to enable or disable the map display during execution. Include the player’s line of sight in the map rendering.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Coding Style Example">
+            <h2>7. Coding Style + Documentation</h2>
+            <p>Ensure your code follows the specified coding style and is well-documented. Adhere to the documentation format and maintain clean, readable code.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Textures Example">
+            <h2>8. Textures</h2>
+            <p>Add textures to the walls to enhance visual fidelity. Ensure that textures are applied correctly and appear as intended in the game.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Multi-tasking Example">
+            <h2>9. Multi-task</h2>
+            <p>Handle simultaneous movement and rotation inputs. Ensure that multiple keys can be pressed and processed at the same time for smooth gameplay.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Ground Textures Example">
+            <h2>10. Ground Textures</h2>
+            <p>Apply textures to the ground and/or ceiling surfaces. Enhance the game environment with detailed textures for a more immersive experience.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Weapons Example">
+            <h2>11. Weapons</h2>
+            <p>Add weapon textures to the game. Implement visual representations for different weapons and ensure they are displayed correctly in the game.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Enemies Example">
+            <h2>12. Enemies</h2>
+            <p>Add enemies to the game environment. Implement enemy behavior and interactions, creating challenges for the player to overcome.</p>
+        </div>
+
+        <div class="section">
+            <img src="placeholder-image.jpg" alt="Rain Example">
+            <h2>13. Make it Rain</h2>
+            <p>Add a rain effect to the game. Provide functionality to start and stop the rain using a key, and ensure the effect integrates smoothly with the game’s visuals.</p>
+        </div>
+    </div>
+</body>
+</html>

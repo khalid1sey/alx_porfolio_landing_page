@@ -1,0 +1,106 @@
+body {
+    font-family: monospace;
+    background-color: rgba(0,0,0, 0.1);
+}
+
+
+header {
+
+}
+
+/* <!-- Navigation content goes here --> */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 50px;
+}
+
+nav .logo a {
+    font-size: 49px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu_nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 44px;
+    margin-right: 100px;
+
+}
+
+ul li {
+    
+}
+
+.menu_nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.menu_nav ul a:hover {
+    outline: 1px solid #000;
+    padding: 3px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 1px;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+
+
+
+
+section.intro {
+    padding: 50px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+div.hero_img {
+
+}
+
+.hero_img img{
+    border-radius: 50%;
+    width: 360px;
+}
+
+section.intro h1 {
+    font-family: monospace;
+    font-size: 33px;
+    text-align: center;
+}
+
+section.intro p {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+
+section .contact {
+    margin-left: 130px;
+}
+
+.contact a {
+    gap: 30px;
+    margin: 0 20px;
+}
+
+

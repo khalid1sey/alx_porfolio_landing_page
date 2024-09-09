@@ -1,0 +1,121 @@
+body {
+    font-family: monospace;
+}
+
+section.wrapper {
+    position: absolute;
+}
+
+.main_background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+header {
+
+}
+
+/* <!-- Navigation content goes here --> */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 50px;
+}
+
+nav .logo a {
+    font-size: 49px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu_nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 44px;
+    margin-right: 100px;
+
+}
+
+ul li {
+    
+}
+
+.menu_nav ul a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.menu_nav ul a:hover {
+    outline: 1px solid #fff;
+    padding: 3px;
+    background-color: #fff;
+    color: #005;
+    border-radius: 1px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+
+
+
+section {
+    padding: 0 90px;
+    color: #fff;
+}
+
+section h1 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 39px;
+}
+
+section p {
+    font-size: 20px;
+    font-family: monospace;
+    padding: 70px;
+
+}
+
+section .btns {
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 10px 0;
+    padding: 10px;
+
+}
+
+section .btns button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+section .btns button a{
+    text-decoration: none;
+}
